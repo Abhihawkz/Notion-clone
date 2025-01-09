@@ -8,7 +8,7 @@ let app : App;
 
 if(getApps().length === 0){
     app = initializeApp({
-        Credential:cert(serviceKey)
+        credential:cert(serviceKey)
     });
 }else {
     app = getApp();
